@@ -1,0 +1,54 @@
+*{
+    margin:0;
+}
+body{
+    margin:0;
+    width:100%;
+  
+    color:white;
+  background-color:rgb(0,190,225) ;
+  background-size:cover;
+  
+  }
+  #title{
+    background-color: black;
+    font-size:8rem;
+    text-align:center;
+  }
+  #description{
+    text-align:center;
+    font-size:2rem;
+    
+  }
+  .content{
+    background-color:hsl(0,0%,90%);
+    color:black;
+    margin:1% 20% 
+  
+  
+  
+  }
+  fieldset{
+  font-size:2rem;
+  margin-bottom:1.5rem;
+   line-height:4rem;
+   border:none;
+   border-bottom:3px solid black ;
+  }
+  #name,#email,#number {
+    font-size:1.5rem;
+    width:100%
+  }
+  .rad1,.rad2,.check{ 
+    line-height:5rem;
+    word-spacing:8px;
+  
+  }
+  #dropdown{
+    font-size:1.5rem;
+  }
+  #submit{
+    font-size:2rem;
+    margin-left:45%;
+  }
+  

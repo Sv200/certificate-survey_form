@@ -1,0 +1,70 @@
+<!Doctype html>
+<html lang="em">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <link rel="stylesheet" href="css/survey_form.css">
+<title>survey form </title>
+
+</head>
+<body>
+  
+<h1 id="title"> Survey Form</h1>
+  <p id="description"> Please fill the form,Thankyou</p>
+<div class="content">
+
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">
+        Name:
+        <input id="name" class="field1" type="text" placeholder="SV" required>
+</label>
+<label id="email-label">
+  Email:
+  <input id="email" class="field1" type="email" placeholder="aabcd@gmail.com" required>
+</label>
+<label id="number-label">
+  Contact: <input id ="number" class="field1" type="number" placeholder="987654321" min="10"  max= "12">
+  </label>
+  </fieldset>
+<fieldset class="2">
+  <label class="rad1">Gender<br>
+    <input type="radio" name="gender" class="rad1" value="male">Male
+    <input type="radio" name="gender" class="rad1" value="female">Female
+</label><br>
+<label class="rad2">Are you Interested in coding?<br>
+  <input type="radio" class="rad2" name="rad" value="yes">Yes
+  <input type="radio" class="rad2" name="rad" value="no">No
+  </label> <br>
+<label class="check" id="ck">what's your favourite programming language?
+  <br>
+  <input type="checkbox" class="check" value="c">C++
+  <input type="checkbox" class="check" value="j">Java
+  <input type="checkbox" class="check"
+ value="py">Python
+ <input type="checkbox" class="check" value="jav">Javascript
+ </label><br>
+ <label>Which option describe your current role?<br>
+ <select id="dropdown">
+   <option>choose one</option>
+   <option>student</option>
+   <option>working professional
+   </option>
+   <option>other</option>
+</select>
+</label><br>
+<label>Feedback<br>
+<textarea rows="6"cols="50">
+</textarea>
+</label>
+</fieldset>
+
+<fieldset class="3">
+  <label>
+    <input id="submit" type="submit">
+    </label>
+    </fieldset>
+    </form>
+    </div>
+  </body>
+  </html>
